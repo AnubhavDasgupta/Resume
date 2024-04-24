@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			* {
+				margin: 1px;
+				padding: 1px;
+				box-sizing: border-box;
+			}
+			body {
+				background-color: rgb(253, 254, 255);
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.full {
+				width: 100%;
+				max-width: 1000px;
+				min-height: 100px;
+				background-color: #000000;
+				margin: 1px;
+				display: grid;
+				grid-template-columns: 2fr 4fr;
+			}
+			.left {
+				position: initial;
+				background-color: #53B0AE;
+				padding: 20px;
+			}
+			.right {
+				position: initial;
+				background-color: #F4F0DB;
+				padding: 20px;
+			}
+			.image, .Contact, .Skills, .Language, .Hobbies, .title, .Experience, .Education, .project {
+				margin-bottom: 30px;
+			}
+			table, th, td {
+	  			border:1px solid black;
+			}
+			.h2 {
+				background-color: rgb(4, 96, 150);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="full">
+			<div class="left">
+				<div class="image">
+					<center><img src="myself.jpg" style="width:165px; height:200px;"></center>
+				</div>
+				<div class="Contact">
+					<h2>Contact</h2>
+					<ul>
+						<li><b><u>Email Id:</u></b><br>anubhavdasgupta04@gmail.com</li>
+						<li><b><u>Mobile No. :</u></b>+91 7450861668</li>
+					</ul>
+				</div>
+				<div class="Skills">
+					<h2>Skills</h2>
+					<ul>
+						<li><b><u>Programming Languages:</u></b> C, Java</li>
+						<li><b><u>Frontend:</u></b> HTML5, CSS3, JavaScript</li>
+					</ul>
+				</div>
+				<div class="Language">
+					<h2>Languages</h2>
+					<ul>
+						<li>Bengali</li>
+						<li>Hindi</li>
+						<li>English</li>
+					</ul>
+				</div>
+				<div class="Hobbies">
+					<h2>Hobbies</h2>
+					<ul>
+						<li>Reading Storybooks</li>
+						<li>Watching TV Shows & Series</li>
+						<li>Playing PC Games</li>
+					</ul>
+				</div>
+			</div>
+			<div class="right">
+				<div class="name">
+					<h1 style="font-family: bell mt;">Anubhav Dasgupta</h1>
+				</div>
+				<div class="title">
+					<p><h3>Student</h3></p>
+				</div>
+				<div class="Personal Details">
+					<p style="font-size: 25px;"><b>Personal Details</b></p>
+					<ul>
+					<li><b><u>Date of Birth:</u></b> 18/12/2004</li>
+					<li><b><u>Address:</u></b> Debipark, Near Sitala Mandir, Sourav Ganguly Avenue, Bablatala, Kol-700136</li>
+					</ul>
+				</div>
+				<br>
+				<div class="Education">
+					<p style="font-size: 25px;"><b>Education</b></p>
+					<br>
+					<table style="width:100%">
+						<tr>
+							<th><u>Class/Stream </u></th>
+							<th><u>Name of Institution </u></th>
+							<th><u>Passing Year </u></th>
+							<th><u>Percentage </u></th>
+						</tr>
+						<tr>
+							<td>10th </td>
+							<td>St. Stephen's School, Dum Dum </td>
+							<td>2021 </td>
+							<td>84.6% </td>
+						</tr>
+						<tr>
+							<td>12th </td>
+							<td>St. Stephen's School, Dum Dum </td>
+							<td>2023 </td>
+							<td>75.33% </td>
+						</tr>
+						<tr>
+							<td>BCA </td>
+							<td>B.P. Poddar Institute of Management & Technology, Saltlake, Sector-V </td>
+							<td>-NA- </td>
+							<td>-NA- </td>
+						</tr>
+					</table>
+				</div>
+				<div class="project">
+					<p style="font-size: 25px;"><b>Project</b></p><br>
+					<p style = "font-size: 17px;">Made a Login Page with <b>HTML & CSS:-</b></p><br>
+						<a href="file:///D:/ANUBHAV/HTML/ASSIGNMENT/CV/Mini-regis%20form.html" target = "_blank">A Login Page</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

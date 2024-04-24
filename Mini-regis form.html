@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Registration Form</title>
+	</head>
+	<body style = "background-color: silver;">
+		<center>
+			<br>
+			<h1 style="font-family: times new roman; color: black">Registration Form </h1>
+			<br><br><br>
+			<label style="margin-left: 20px;">Course: </label>
+				<select name="courses" id="courses" style="margin-left: 20px; padding: 3px;">
+					<option value="bca"> BCA (Bachelor in Computer Applications) </option>
+					<option value="bba"> BBA (Bachelor in Business Administration) </option>
+					<option value="btech"> BTECH (Bachelor of Technology) </option>
+					<option value="bcom"> BCOM (Bachelor of Commerce) </option>
+				</select>
+			<br><br>
+			<label style="margin-left: 20px;"> Name: </label>
+				<input type="text" name="Enter your name" placeholder="Enter your name" class="us">
+			<br><br>
+			<label style="margin-left: 20px;"> Date of Birth: </label>
+				<input type="date" id="DOB" name="DOB" style="margin-left: 5px; padding: 3px;" class="us">
+			<br><br>
+			<label style="margin-left: 20px;"> Address: </label>
+				<textarea style="margin-left: 20px;" id="address" name="address" placeholder="Enter your Address" rows="4" cols="50"></textarea>
+			<br><br>
+			<label style="margin-left: 20px;"> Country: </label>
+				<select name="country" id="country" style="margin-left: 20px; padding: 3px;">
+					<option value="india"> India </option>
+					<option value="nepal"> Nepal </option>
+					<option value="russia"> Russia </option>
+					<option value="italy"> Italy </option>
+				</select>
+			<br><br>
+			<label style="margin-left: 20px;"> Mobile No: </label>
+				<input type="tel" id="phone" name="phone" placeholder="1234567890" pattern="{0-9}{10}" required style="margin-left: 4px;" class="us">
+			<br><br><br>
+			<button>Submit</button>
+		</center>
+	</body>
+</html>
